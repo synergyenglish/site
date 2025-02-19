@@ -7,7 +7,7 @@ dotenv.config();
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: process.env.NODE_ENV === "production" ? "/synergyenglish/" : "/",
+  base: process.env.NODE_ENV === "production" ? "/site/" : "/",
   define: {
     "process.env": process.env,
   },
