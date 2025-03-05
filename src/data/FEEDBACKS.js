@@ -34,7 +34,7 @@ export const FEEDBACKS = [
   [
     {
       id: 1,
-      body: "“ From YLE Starters to KET and beyond, we offer a wide range of engaging English courses tailor ”",
+      body: "“My child used to be shy about speaking English, but now she’s more confident and excited to learn! The teachers make lessons so fun and engaging.”",
       parent: {
         name: "Ma Wah Wah",
         initial: "W",
@@ -44,7 +44,7 @@ export const FEEDBACKS = [
     },
     {
       id: 2,
-      body: "“ From YLE Starters to KET and beyond, we offer a wide range of engaging English courses tailor ”",
+      body: "“We love how the lessons are interactive and playful. My son enjoys every class, and I can see real improvement in his speaking and reading skills!”",
       parent: {
         name: "Ma Wah Wah",
         initial: "W",
@@ -54,7 +54,7 @@ export const FEEDBACKS = [
     },
     {
       id: 3,
-      body: "“ From YLE Starters to KET and beyond, we offer a wide range of engaging English courses tailor ”",
+      body: "“The best part is that my child is actually excited for class! The teachers are patient, and the activities make learning feel like play.”",
       parent: {
         name: "Moh Moh",
         initial: "W",
@@ -77,7 +77,7 @@ export const FEEDBACKS = [
   [
     {
       id: 5,
-      body: "“ From YLE Starters to KET and beyond, we offer a wide range of engaging English courses tailor ”",
+      body: "“My daughter enjoys the Art & Craft Club so much! She learns English while being creative, and it helps her remember words better”",
       parent: {
         name: "Ma Wah Wah",
         initial: "W",
@@ -87,7 +87,7 @@ export const FEEDBACKS = [
     },
     {
       id: 6,
-      body: "“ From YLE Starters to KET and beyond, we offer a wide range of engaging English courses tailor ”",
+      body: "“My daughter enjoys the Art & Craft Club so much! She learns English while being creative, and it helps her remember words better”",
       parent: {
         name: "Ma Wah Wah",
         initial: "W",
@@ -97,7 +97,7 @@ export const FEEDBACKS = [
     },
     {
       id: 7,
-      body: "“ From YLE Starters to KET and beyond, we offer a wide range of engaging English courses tailor ”",
+      body: "“The Music Club is such a great way for kids to learn English naturally through songs. My son sings in English all the time now”",
       parent: {
         name: "Ma Wah Wah",
         initial: "W",
@@ -107,7 +107,7 @@ export const FEEDBACKS = [
     },
     {
       id: 8,
-      body: "“From YLE Starters to KET and beyond, we offer a wide range of engaging English courses tailor ”",
+      body: "“The storytelling sessions are magical! My child has started making up her own little stories in English at home. We can't even keep up with listening to her stories.”",
       parent: {
         name: "Ma Wah Wah",
         initial: "W",
@@ -117,7 +117,7 @@ export const FEEDBACKS = [
     },
     {
       id: 9,
-      body: "“ From YLE Starters to KET and beyond, we offer a wide range of engaging English courses tailor ”",
+      body: "“My son struggled with phonics before, but after joining Synergy English, he’s reading with so much more confidence. The fun and engaging teaching style really works.”",
       parent: {
         name: "Ma Wah Wah",
         initial: "W",
@@ -129,7 +129,7 @@ export const FEEDBACKS = [
   [
     {
       id: 10,
-      body: "“ From YLE Starters to KET and beyond, we offer a wide range of engaging English courses tailor ”",
+      body: "“My son struggled with phonics before, but after joining Synergy English, he’s reading with so much more confidence. The fun and engaging teaching style really works!”",
       parent: {
         name: "Ma Wah Wah",
         initial: "W",
@@ -139,7 +139,7 @@ export const FEEDBACKS = [
     },
     {
       id: 11,
-      body: "“ From YLE Starters to KET and beyond, we offer a wide range of engaging English courses tailor ”",
+      body: "“I was looking for an English class that wasn’t just memorizing words, and I found the perfect place! The lessons are interactive, and my daughter loves the activities.”",
       parent: {
         name: "Ma Wah Wah",
         initial: "W",
@@ -149,7 +149,7 @@ export const FEEDBACKS = [
     },
     {
       id: 12,
-      body: "“From YLE Starters to KET and beyond, we offer a wide range of engaging English courses tailor ”",
+      body: "“The best thing about Synergy English is that my child actually looks forward to class! She’s learning English in a way that’s fun and natural.”",
       parent: {
         name: "Ma Wah Wah",
         initial: "W",
@@ -159,7 +159,7 @@ export const FEEDBACKS = [
     },
     {
       id: 13,
-      body: "“From YLE Starters to KET and beyond, we offer a wide range of engaging English courses tailor ”",
+      body: "“I'have been looking for teachers that can handle my child's burst energy and teachers from Synergy English are so patient and I can hear them having fun while learning.”",
       parent: {
         name: "Ma Wah Wah",
         initial: "W",

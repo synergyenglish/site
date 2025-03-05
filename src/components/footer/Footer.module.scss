@@ -1,6 +1,8 @@
 @use "../../styles/index.scss" as index;
 
 .section--footer {
+  position: relative;
+  z-index: 998;
   color: var(--color-white);
   padding-bottom: 0px;
   overflow: hidden;

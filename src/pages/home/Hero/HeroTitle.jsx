@@ -86,8 +86,9 @@ function HeroTitle(props, ref) {
       )}
       {currentLanguage === "en" ? (
         <p className="body_big">
-          Our joyful learning experiences help kids build confidence, fluency,
-          and creativity in speaking English while enjoying learning English!
+          Our joyful teaching methods turn learning into an exiciting journey,
+          helping kids build confidence, fluency, and creativity in speaking
+          English!
         </p>
       ) : (
         <p className="body_big">

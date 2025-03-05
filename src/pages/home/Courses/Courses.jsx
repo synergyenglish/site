@@ -11,6 +11,7 @@ import { ModalContext } from "../../../store/ModalProvider";
 
 // Custom Components
 import Class from "./Course";
+import Texture from "../../../components/Texture/Texture";
 // modal
 import CoursesModal from "../CoursesModal/CoursesModal";
 
@@ -24,7 +25,7 @@ export default function Courses() {
 
   const { openModal, closeModal } = useContext(ModalContext);
   const handleOpenModal = (course) => {
-    openModal(CoursesModal, { content: course, closeModal });
+    openModal(CoursesModal, { course, closeModal });
   };
 
   return (

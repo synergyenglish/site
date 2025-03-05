@@ -62,3 +62,10 @@ img {
 body.modal-open {
   overflow: hidden !important;
 }
+
+.social-icon {
+  &:hover {
+    transition: all 0.3s ease-in-out;
+    opacity: 0.6;
+  }
+}

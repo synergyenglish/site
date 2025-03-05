@@ -21,23 +21,23 @@ i18n.use(initReactI18next).init({
           },
           mission: {
             sectionTitle: "Our Mission",
-            firstTitle: "Fun learning is the most productive one!",
+            firstTitle: "Learning isn’t just about memorizing words",
             firstSubtitle:
-              " We believe our kids learn English best when they are having fun. So, we offer engaging lessons and as we see the smiles on our young kids, we are doing our best job as teachers.",
-            secondTitle: "That’s why, we keep our kids happy!",
+              "`Through our experience, we believe our kids learn best when they’re having fun, which is why our lessons are filled with games, creativity, and laughter. After every lesson, speaking English becomes an activity they love to do!`",
+            secondTitle: "The best way to learn is to have fun learning!",
             secondSubtitle:
-              "Our professional teachers truly understand the nature of our kids. Kids learn and do things better when they are in relax and comfortable environments. That’s why we don’t just teach! We as well put smiles on our kids!",
+              "When learning feels like play, children stay curious, engaged, and excited to keep exploring. Our interactive approach helps young kids build confidence in speaking English naturally, without fear of making mistakes.",
           },
           courses: {
             sectionTitle: "Our Courses",
             title: "Courses from age 6 to 16",
             subtitle:
-              "From YLE starters to KET and beyond, we offer a wide range of engaging English courses tailored to young leaners. Our students are from age 6 to 16 who are building solid foundations for lifelong English success.",
+              "Whether your child is just starting out or looking to level up their English skills, we have a course that fits their journey. Our classes range from General English to phonics and YLE certificate programs.",
             courseDetails: {
               yle: {
-                title: "Young Learners English Course",
+                title: "Young Learners English Courses",
                 shortDescription:
-                  "YLE is a course we encourage students from age 6 to 16 to learn as it greatly assist our students in accessing their skills at a young age.",
+                  "Cambridge-aligned courses(YLE Starters, Movers, Flyers, kET), designed to help kids grow in confidence and prepare for international exams.",
                 longDescription:
                   "YLE is a course we encourage students from age 6 to 16 to learn as it greatly assist our students in accessing their skills at a young age. YLE is a course we encourage students from age 6 to 16 to learn as it greatly assist our students in accessing their skills at a young age.",
                 subDetails: {
@@ -50,8 +50,8 @@ i18n.use(initReactI18next).init({
                     body: "Kids from age of 6 to 16 years old",
                   },
                   level: {
-                    title: "Level",
-                    body: "Pre-starters, Starters, Movers, Flyers, KETs",
+                    title: "Levels",
+                    body: "Pre-Starters, Starters, Movers, Flyers, KETs",
                   },
                   outcomes: {
                     title: "Outcomes",
@@ -62,7 +62,7 @@ i18n.use(initReactI18next).init({
               generalEnglish: {
                 title: "General English Course",
                 shortDescription:
-                  "Our general english course is for kids with no background english to gain In just 60 lessons, you could see remarkable improvements in your speaking and listening skills, and we have six CEFR-aligned levels (A1 to C2) to suit every learner.",
+                  "Our General English course is perfect for kids who are just starting their English journey as we focus on developing essential foundational skills.",
                 longDescription:
                   "Our general english course is for kids with no background english to gain In just 60 lessons, you could see remarkable improvements in your speaking and listening skills, and we have six CEFR-aligned levels (A1 to C2) to suit every learner. Our convenient Bangkok locations make it easy to learn English in-person, or you can choose online sessions for ultimate flexibility.",
                 subDetails: {
@@ -75,8 +75,8 @@ i18n.use(initReactI18next).init({
                     body: "Kids from age of 6 to 16 years old",
                   },
                   level: {
-                    title: "Level",
-                    body: "Pre-starters, Starters, Movers, Flyers, KETs",
+                    title: "Levels",
+                    body: "Elementary, Foundation, Beginner, Pre-intermediate, Intermediate, Upper Intermediate, Advanced",
                   },
                   outcomes: {
                     title: "Outcomes",
@@ -86,7 +86,8 @@ i18n.use(initReactI18next).init({
               },
               art: {
                 title: "Art and Extracarriculars",
-                shortDescription: "We don't just teach kids English.",
+                shortDescription:
+                  "The best learning happens when kids are truly engaged. That’s why we offer Art & Craft, Storytelling, and Music Clubs for every kids in Synergy.",
                 longDescription:
                   "We don't just teach kids English. We like to keep our kids positive and excited to learn with us. That's why we have tailored some free learing clubs that are fun and enjoyable for our kids. ",
                 subDetails: {
@@ -111,9 +112,9 @@ i18n.use(initReactI18next).init({
               phonic: {
                 title: "Phonic For Kids",
                 shortDescription:
-                  "Pronounciation Training for kids between age of 6 to 16. We do encourage parents to help kids build up vocabularies and pronouciations since young age.",
-                longDescription:
-                  "Pronounciation Training for kids between age of 6 to 16. We do encourage parents to help kids build up vocabularies and pronouciations since young age. This course is designed to help your kids build a solid foundation for language fluency",
+                  "The perfect start for little learners! We help young kids master pronunciation, letter sounds, and early reading skills.",
+                detailDescirption:
+                  "Our Phonics Class is the perfect start for young learners, especially for bilingual children speaking Myanmar and Thai. We focus on building strong foundational skills in letter sounds, blending, and pronunciation, helping kids bridge the gap between their native languages and English. Our interactive, play-based approach makes learning fun, engaging, and stress-free, ensuring kids develop confidence in reading and speaking.",
                 subDetails: {
                   duration: {
                     title: "Duration",
@@ -236,8 +237,8 @@ i18n.use(initReactI18next).init({
                     body: "Kids from age of 6 to 16 years old",
                   },
                   level: {
-                    title: "Level",
-                    body: "Pre-starters, Starters, Movers, Flyers, KETs",
+                    title: "Levels",
+                    body: "Pre-Starters, Starters, Movers, Flyers, KETs",
                   },
                   outcomes: {
                     title: "Outcomes",
@@ -262,7 +263,7 @@ i18n.use(initReactI18next).init({
                   },
                   level: {
                     title: "Level",
-                    body: "Pre-starters, Starters, Movers, Flyers, KETs",
+                    body: "Foundational, Beginner, Jumper, Pre-intermediate, Intermediate, Upper Intermediate, Advanced",
                   },
                   outcomes: {
                     title: "Outcomes",

@@ -78,6 +78,7 @@ export default function Footer() {
                 {/* Icons */}
                 {/* Facebook */}
                 <svg
+                  className="social-icon"
                   width="32"
                   height="32"
                   viewBox="0 0 32 32"
@@ -100,6 +101,7 @@ export default function Footer() {
                 </svg>
                 {/* Messenger */}
                 <svg
+                  className="social-icon"
                   width="32"
                   height="32"
                   viewBox="0 0 32 32"
@@ -122,6 +124,7 @@ export default function Footer() {
                 </svg>
                 {/* Line */}
                 <svg
+                  className="social-icon"
                   width="32"
                   height="32"
                   viewBox="0 0 32 32"

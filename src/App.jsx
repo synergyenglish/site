@@ -8,6 +8,7 @@ import Home from "./pages/home/Home";
 import { LenisProvider } from "./utils/LenisProvider";
 import ActiveNavProvider from "./store/ActiveNavProvider";
 import ModalProvider from "./store/ModalProvider";
+import Texture from "./components/Texture/Texture";
 
 // Localization
 import "./localization/i18n";
@@ -33,6 +34,7 @@ function App() {
 
   return (
     <>
+      <Texture />
       <LenisProvider>
         <ThemeProvider theme={theme}>
           <ModalProvider>

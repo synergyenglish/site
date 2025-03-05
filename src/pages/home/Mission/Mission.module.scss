@@ -108,10 +108,14 @@
 
 .kidIconOrange {
   position: relative;
-  top: -30%;
+  top: 2%;
   left: 3vw;
   width: index.fluid-value(345px, 1440px, 140px, 240px);
   height: index.fluid-value(345px, 1440px, 140px, 240px);
+
+  @include index.below(1000px) {
+    top: -30%;
+  }
 }
 
 .tiltedSquare {

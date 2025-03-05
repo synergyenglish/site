@@ -52,10 +52,11 @@ export default function Course({ course, index, onClick }) {
     >
       <div className={`${styles.classCard} ${styles[`card-${index + 1}`]}`}>
         <div className={`${styles.content}`}>
-          <h3>{t(`home.courses.courseDetails.${course.key}.title`)}</h3>
+          <h3>{t(`home.courses.courseDetails.${course.courseKey}.title`)}</h3>
           <p>
-            {" "}
-            {t(`home.courses.courseDetails.${course.key}.shortDescription`)}
+            {t(
+              `home.courses.courseDetails.${course.courseKey}.shortDescription`
+            )}
           </p>
         </div>
         <div className={styles.buttonWrapper}>

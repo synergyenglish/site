@@ -3,6 +3,8 @@ import styles from "./Mission.module.scss";
 // Assets
 import KidIconOrangeSVG from "/assets/Others/Kid - Illu Orange.svg";
 
+// Custom Components
+
 // gsap
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
@@ -21,6 +23,7 @@ import {
 // Localization
 import "../../../localization/i18n";
 import { useTranslation } from "react-i18next";
+import { transform } from "motion";
 
 export default function Mission() {
   // Localization

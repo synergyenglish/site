@@ -8,16 +8,25 @@ import iconAbstract from "/assets/Footer/Icon - Abstract.svg";
 import iconMoon from "/assets/Footer/Icon - Moon.svg";
 import iconPastles from "/assets/Footer/Icon - Pastles.svg";
 
+// Localization
+import "../../../localization/i18n";
+import { useTranslation } from "react-i18next";
+
 // Banner
 import courseModalBanner from "/assets/Course Modal/Modal Banner.svg";
 
-export default function CoursesModal({ content, closeModal }) {
+export default function CoursesModal({ course, closeModal }) {
+  const { t, i18n } = useTranslation();
+
+  console.log(
+    t(`home.courses.courseDetails.${course.courseKey}.subDetails.level.body`)
+  );
   return (
     <div className={styles.wrapper}>
       <div className={styles.courseModal}>
         <div className={styles.navBar}>
           {/* Title */}
-          <h3>{content.title || "Navigation bar"}</h3>
+          <h3>{course.title || "Navigation bar"}</h3>
           {/* Close Icon */}
           <div className={styles.closeIcon} onClick={closeModal}>
             <svg
@@ -52,7 +61,12 @@ export default function CoursesModal({ content, closeModal }) {
           </div>
         </div>
         <div className={styles.modalBody}>
-          <p className={styles.description}>{content.description}</p>
+          {/* Change with detailDescription */}
+          <p className={styles.description}>
+            {t(
+              `home.courses.courseDetails.${course.courseKey}.shortDescription`
+            )}
+          </p>
           <div className={styles.details}>
             {/* Block 1 */}
             <div className={styles.block}>
@@ -60,8 +74,8 @@ export default function CoursesModal({ content, closeModal }) {
                 <img src={iconFlower} alt="" />
               </div>
               <div className={styles.block__body}>
-                <h5 className={`title h4`}>{content.details[0].title}</h5>
-                <p>{content.details[0].text}</p>
+                <h5 className={`title h4`}>{course.details[0].title}</h5>
+                <p>{course.details[0].text}</p>
               </div>
             </div>
             {/* Block 2 */}
@@ -70,8 +84,8 @@ export default function CoursesModal({ content, closeModal }) {
                 <img src={iconPastles} alt="brand icon" />
               </div>
               <div className={styles.block__body}>
-                <h5 className={`title h4`}>{content.details[1].title}</h5>
-                <p>{content.details[1].text}</p>
+                <h5 className={`title h4`}>{course.details[1].title}</h5>
+                <p>{course.details[1].text}</p>
               </div>
             </div>
             {/* Block 3 */}
@@ -80,8 +94,13 @@ export default function CoursesModal({ content, closeModal }) {
                 <img src={iconMoon} alt="brand icon" />
               </div>
               <div className={styles.block__body}>
-                <h5 className={`title h4`}>{content.details[2].title}</h5>
-                <p>{content.details[2].text}</p>
+                <h5 className={`title h4`}>{course.details[2].title}</h5>
+                {/* <p>{course.details[2].text}</p> */}
+                <p>
+                  {t(
+                    `home.courses.courseDetails.${course.courseKey}.subDetails.level.body`
+                  )}
+                </p>
               </div>
             </div>
             {/* Block 4 */}
@@ -90,8 +109,8 @@ export default function CoursesModal({ content, closeModal }) {
                 <img src={iconAbstract} alt="brand icon" />
               </div>
               <div className={styles.block__body}>
-                <h5 className={`title h4`}>{content.details[3].title}</h5>
-                <p>{content.details[3].text}</p>
+                <h5 className={`title h4`}>{course.details[3].title}</h5>
+                <p>{course.details[3].text}</p>
               </div>
             </div>
           </div>
@@ -103,6 +122,7 @@ export default function CoursesModal({ content, closeModal }) {
               {/* Icons */}
               {/* Facebook */}
               <svg
+                className="social-icon"
                 width="32"
                 height="32"
                 viewBox="0 0 32 32"
@@ -125,6 +145,7 @@ export default function CoursesModal({ content, closeModal }) {
               </svg>
               {/* Messenger */}
               <svg
+                className="social-icon"
                 width="32"
                 height="32"
                 viewBox="0 0 32 32"
@@ -147,6 +168,7 @@ export default function CoursesModal({ content, closeModal }) {
               </svg>
               {/* Line */}
               <svg
+                className="social-icon"
                 width="32"
                 height="32"
                 viewBox="0 0 32 32"
